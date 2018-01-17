@@ -16,7 +16,7 @@ try{
     //ADD ATTRIBUTE
     $installer->addAttribute('catalog_category', 'custom_attribute', array(
         'sort_order' => 3, //Order of the attribute in the backend. Will be the lastone if not used.
-        'group' => 'General Information', //Name of the tab were the attribute will be added.
+        'group' => 'General Information', //Name of the tab where the attribute will be added.
         'input' => 'textarea',
         'type' => 'text',
         'label' => 'My Custom Attribute',
