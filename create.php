@@ -30,7 +30,7 @@ try{
     $installer->endSetup();
 
 }catch(Exception $e){
-    echo "Opps, something went wrong running the script. Sorry."
+    echo "Opps, something went wrong running the script. Sorry.";
 }
 
 
